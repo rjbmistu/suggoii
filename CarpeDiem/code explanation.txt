@@ -1,0 +1,74 @@
+ITS EXPLAINED BY CHATGPT::
+
+Sure, here is a step-by-step explanation of the provided HTML and CSS code:
+
+HTML:
+
+<!DOCTYPE html> is a declaration of the document type and tells the browser that the page is an HTML5 document.
+
+<html lang="en"> opens the HTML document and sets the language to English.
+
+<head> contains the meta-information about the HTML document.
+
+<link rel="stylesheet" href="style.css"> links the external CSS file called "style.css" to the HTML document.
+
+<title>⚡</title> sets the title of the HTML document to a lightning bolt emoji.
+
+</head> ends the head section of the HTML document.
+
+<body> contains the content of the HTML document that will be displayed on the web page.
+
+<a href="./nextpage/index1.html" target="_blank"> creates a hyperlink to the "index1.html" page located in the "nextpage" folder 
+and opens it in a new browser tab when clicked.
+
+<button class="button">CarpeDiem</button> creates a button with the class name "button" and the text "CarpeDiem" inside it.
+
+</a> closes the hyperlink.
+
+</body> ends the body section of the HTML document.
+
+</html> ends the HTML document.
+
+CSS:
+
+html, body sets the styles for the entire HTML document and selects both the html and body elements.
+
+height: 100%; and width: 100%; set the height and width of the html and body elements to 100% of the browser window.
+
+display: flex; sets the display property to "flex" which enables the use of flexbox for the html and body elements.
+
+justify-content: center; and align-items: center; center the contents of the html and body elements horizontally and vertically using 
+flexbox.
+
+background: linear-gradient(to left, #606c88 , #3f4c6b); sets a linear gradient background from left to right using two colors.
+
+font-family: 'Oswald', sans-serif; sets the font family for the HTML document to "Oswald" and uses a fallback font of sans-serif if 
+Oswald is not available.
+
+.button selects the HTML element with the class name "button" and sets its styles.
+
+text-align: center; centers the text within the button.
+
+text-transform: uppercase; sets the text to uppercase.
+
+cursor: pointer; sets the cursor to a pointer when hovering over the button.
+
+font-size: 20px; sets the font size of the button to 20 pixels.
+
+letter-spacing: 4px; sets the spacing between letters to 4 pixels.
+
+position: relative; sets the position of the button element to relative.
+
+background-color: #16a085; sets the background color of the button to a shade of green.
+
+border: none; removes the border of the button.
+
+color: #fff; sets the text color of the button to white.
+
+padding: 20px; adds 20 pixels of padding to the button.
+
+width: 200px; sets the width of the button to 200 pixels.
+
+transition-duration: 0.4s; sets the duration of the button's transition effects to 0.4 seconds.
+
+overflow: hidden; hides
